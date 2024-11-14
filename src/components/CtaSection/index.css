@@ -1,0 +1,39 @@
+.cta-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow:  0 2px 4px rgba(0,0,0,0.1);
+    background: rgb(234, 237, 244);
+    gap: 10px;
+}
+
+
+.cta-section h2{
+    font-size: 26px;
+}
+
+.cta-btn{
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width:768px){
+    .cta-section{
+        width: 80%;
+    }
+    .cta-section h2{
+        font-size: 20px;
+    }
+    .cta-section p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .cta-btn{
+        flex-direction: column;
+        width: 150px;
+    }
+}
